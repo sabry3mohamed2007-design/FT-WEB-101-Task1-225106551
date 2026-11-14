@@ -1,0 +1,91 @@
+<!--
+Name: Sabry Mohamed Mohamed Sabry
+Student ID: 225106551
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabry Mohamed Mohamed Sabry | Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header" id="top">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="brand" href="#top">Sabry Mohamed Mohamed Sabry</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-text">
+                <p class="eyebrow">HELLO, WELCOME TO MY PAGE</p>
+                <h1>Sabry Mohamed Mohamed Sabry</h1>
+                <p class="intro">Computer Science student who enjoys learning technology, programming, and building useful things.</p>
+                <a class="primary-link" href="#about">Get to know me</a>
+            </div>
+            <img class="profile-photo" src="images/me.jpg" alt="Profile photo of Sabry Mohamed Mohamed Sabry">
+        </div>
+    </header>
+
+    <main>
+        <section class="section about-section" id="about">
+            <div>
+                <p class="eyebrow">A LITTLE ABOUT ME</p>
+                <h2>About Me</h2>
+            </div>
+            <p>I am a Computer Science student at New Mansoura University. I am interested in programming and learning how technology can solve real-world problems. I believe that practice and curiosity are important parts of becoming a better developer.</p>
+        </section>
+
+        <section class="section" id="skills">
+            <p class="eyebrow">WHAT I ENJOY</p>
+            <h2>My Interests</h2>
+            <div class="cards">
+                <article class="card">
+                    <span class="card-number">01</span>
+                    <h3>Programming</h3>
+                    <p>Learning programming fundamentals and improving my problem-solving skills.</p>
+                </article>
+                <article class="card">
+                    <span class="card-number">02</span>
+                    <h3>Technology</h3>
+                    <p>Exploring new technologies and understanding how digital tools work.</p>
+                </article>
+                <article class="card">
+                    <span class="card-number">03</span>
+                    <h3>Learning</h3>
+                    <p>Building new skills through practice, curiosity, and continuous learning.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Contact Me</h2>
+            <p class="contact-intro">Leave your name and email address below.</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="visitor-name">Your name</label>
+                    <input type="text" id="visitor-name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                </div>
+                <button class="submit-button" type="submit">Send</button>
+                <p id="form-message" class="form-message" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Sabry Mohamed Mohamed Sabry. All rights reserved.</p>
+    </footer>
+
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">🌙 Dark mode</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
